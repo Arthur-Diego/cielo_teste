@@ -1,10 +1,12 @@
 
-package com.gft.teste.cielo_teste.model;
+package com.gft.teste.cielo_teste.vo;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.gft.teste.cielo_teste.model.ListaControleLancamento;
+import com.gft.teste.cielo_teste.model.TotalControleLancamento;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseView {

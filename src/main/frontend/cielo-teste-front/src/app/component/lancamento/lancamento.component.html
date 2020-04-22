@@ -1,0 +1,19 @@
+
+<table bordered="true" class="table table-dark">
+  <thead>
+    <tr>
+      <th *ngFor="let head of headElements" scope="col">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr mdbTableCol *ngFor="let lanc of lancamentosVo">
+      <td>{{lanc.dataLancamento}}</td>
+      <td>{{lanc.descricao}}</td>
+      <td>{{lanc.numero}}</td>
+      <td>{{lanc.situacao}}</td>
+      <td>{{lanc.dataConfirmacao}}</td>
+      <td>{{lanc.dadosBancarios}}</td>
+      <td>{{lanc.valorFinal}}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,132 @@
+/*
+	Calendar
+*/
+
+@branco: #ffffff;
+@verde-escuro: #038348;
+@verde-claro: #09B062;
+@cinza-claro: #d5d5d5;
+@quase-preto: #222222;
+@dia-highlight: #d9ffd8;
+@evento-finalizada: #11980C;
+@evento-reagendada: #B1AA11;
+@evento-agendada: #3A87AD;
+
+.legenda {
+	font-size: 16px;
+	.titulo {
+		font-size: large;
+		margin-bottom: 15px;
+	}
+	.item {
+		padding: 0px 10px;
+		margin-right: 5px;
+		display: inline;
+		border-radius: 4px;
+		margin-left: 5px;
+
+	}
+	.evento-agendada, .evento-finalizada, .evento-reagendada {
+		border: 0px solid black;
+	}
+}
+
+.evento-finalizada {
+	background-color: @evento-finalizada;
+	border: 1px solid @evento-finalizada;
+}
+
+.evento-reagendada {
+	background-color: @evento-reagendada;
+	border: 1px solid @evento-reagendada;
+}
+
+.evento-agendada {
+	background-color: @evento-agendada;
+	border: 1px solid @evento-agendada;
+}
+
+
+th.fc-day-header.ui-widget-header, th.fc-axis.ui-widget-header {
+	background: linear-gradient(@verde-escuro, @verde-claro) repeat scroll 0% 0% transparent;
+	color: @branco;
+}
+.mes {
+	.ui-highlight-day {
+		background-color: @dia-highlight;
+	}
+	h2 {
+		font-size: 2.4vmax;
+	}
+}
+.ui-state-highlight {
+	background: @verde-escuro;
+	border: 1px solid @verde-escuro;
+	color: @branco;
+}
+.ui-widget-content {
+	.ui-state-highlight {
+		background: @verde-escuro;
+		border: 1px solid @verde-escuro;
+		color: @branco;
+	}
+}
+.ui-widget-header {
+	.ui-state-highlight {
+		background: @verde-escuro;
+		border: 1px solid @verde-escuro;
+		color: @branco;
+	}
+}
+.dia {
+	.ui-state-highlight {
+		background: @branco;
+		border: 1px solid @cinza-claro;
+		color: @quase-preto;
+	}
+	.ui-widget-content {
+		.ui-state-highlight {
+			background: @branco;
+			border: 1px solid @cinza-claro;
+			color: @quase-preto;
+		}
+	}
+	.ui-widget-header {
+		.ui-state-highlight {
+			background: @branco;
+			border: 1px solid @cinza-claro;
+			color: @quase-preto;
+		}
+	}
+	h2 {
+		font-size: 2.4vmax;
+	}
+}
+.ui-button {
+	background: @verde-escuro;
+	border: 1px solid @verde-escuro;
+	color: @branco;
+}
+button.ui-button.ui-state-default {
+	background: @verde-escuro;
+	border: 1px solid @verde-escuro;
+	color: @branco;
+}
+.ui-button.ui-state-default {
+	background: @verde-escuro;
+	border: 1px solid @verde-escuro;
+	color: @branco;
+}
+button.ui-button.ui-state-hover {
+	background: @verde-claro;
+	border: 1px solid @verde-claro;
+	color: @branco;
+}
+.ui-button.ui-state-hover {
+	background: @verde-claro;
+	border: 1px solid @verde-claro;
+	color: @branco;
+}
+.fc-content {
+	cursor: pointer;
+}

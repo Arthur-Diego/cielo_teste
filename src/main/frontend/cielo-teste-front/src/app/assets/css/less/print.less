@@ -1,0 +1,38 @@
+
+.cabecalho-print {
+	display: none;
+}
+
+@media print
+{
+	.cabecalho-print {
+		display: block;
+		background: #09B062;
+		color: #fff;
+		padding: 20px;
+		    font-size: 1.5rem;
+	}
+
+	.noprint {
+		display: none;
+	}
+
+	.btn, .btn-floating, .btn-large {
+		display: none;
+	}
+	.nav-wrapper {
+		background: #09B062;
+	}
+
+	.card-panel, .ShadowEffect {
+		box-shadow: none !important;
+		border: 2px solid !important;
+	}
+
+	nav-bar {
+		display: none;
+	}
+}
+body {
+	-webkit-print-color-adjust: exact !important;
+}

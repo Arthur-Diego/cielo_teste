@@ -4,6 +4,7 @@ package com.gft.teste.cielo_teste.model;
 import java.util.HashMap;
 import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import javax.persistence.Embeddable;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TotalControleLancamento {

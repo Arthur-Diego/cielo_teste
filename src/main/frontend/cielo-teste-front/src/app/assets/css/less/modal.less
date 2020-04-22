@@ -1,0 +1,52 @@
+/*
+	Modal
+*/
+
+.modal .row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+voto-component {
+    .modal .row .col {
+        padding: 0px;
+    }
+}
+
+.modal-large {
+	width: 80%;
+}
+
+.modal-fixed-footer .modal-footer {
+	.btn, .btn-flat{
+     	margin-left: 5px !important;
+     }
+ }
+
+ .modal {
+     .picker--opened .picker__frame {
+         top: 1%;
+     }
+     .picker__day-display {
+         font-size: 3rem;
+     }
+     .picker__footer {
+         .btn-flat {
+            padding: 0 1rem;
+         }
+     }
+ }
+
+.modal-overlay{
+	position: fixed;
+    z-index: 999;
+    top: -100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 125%;
+    width: 100%;
+    background: #000;
+    display: none;
+    will-change: opacity;
+}
